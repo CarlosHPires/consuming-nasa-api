@@ -1,2 +1,2 @@
-# consuming-nasa-mars-api
-Consuming a nasa rover mars photos api
+# consuming-nasa-api
+Consuming a nasa images api
