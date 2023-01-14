@@ -1,0 +1,105 @@
+.SearchImages {
+  margin: auto;
+  text-align: center;
+  font-family: "Nunito", Arial, Helvetica, sans-serif;
+  max-width: 1200px;
+}
+h1,
+p {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: black;
+  color: white;
+}
+
+h1 {
+  font: 700 4rem/1.4 "Nunito";
+  color: white;
+  padding-top: 40px;
+}
+
+.search {
+  margin-top: 30px;
+}
+
+#submit,
+#dateSearch {
+  padding: 20px;
+  border: 2px solid #3f3b6c;
+  border-radius: 4px;
+  color: white;
+  background: #624f82;
+}
+
+#dateSearch::placeholder {
+  color: white;
+}
+
+#submit {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+#submit:hover {
+  background: #3b2c55;
+}
+
+.image-content {
+  display: flex;
+  gap: 60px;
+  margin-top: 60px;
+  padding: 60px;
+}
+
+p {
+  font-size: 1.2rem;
+  color: #8b8b8b;
+}
+
+.search-img img {
+  border-radius: 8px;
+  height: auto;
+  max-width: 600px;
+  object-fit: fill;
+}
+
+@media (max-width: 1200px) {
+  .image-content {
+    flex-direction: column;
+  }
+
+  .search-img img {
+    max-width: 100%;
+  }
+
+  p {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 3.4rem;
+  }
+
+  .image-content {
+    margin-top: 20px;
+    padding: 40px;
+  }
+}
+
+@media (max-width: 600px) {
+  p {
+    font-size: 1.1rem;
+  }
+
+  h1 {
+    font-size: 3.1rem;
+  }
+
+  .image-content {
+    margin-top: 20px;
+    padding: 20px;
+  }
+}
